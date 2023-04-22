@@ -52,8 +52,8 @@ const appMenuItems = <MenuItem> [
 
   // Infinite scroll
   MenuItem(
-    title: 'Infinite Scroll', 
-    subtitle: 'Scroll sin fin', 
+    title: 'InfiniteScroll y Pull', 
+    subtitle: 'Listas infinitas y pull to refresh', 
     route: '/infinite-scroll', 
     icon: Icons.move_down_outlined
   ),
