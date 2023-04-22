@@ -60,7 +60,7 @@ const appMenuItems = <MenuItem> [
 
   // Progress
   MenuItem(
-    title: 'Progress controls', 
+    title: 'Progress Indicators', 
     subtitle: 'Barras y controles de progreso', 
     route: '/progress', 
     icon: Icons.rocket_launch_sharp
