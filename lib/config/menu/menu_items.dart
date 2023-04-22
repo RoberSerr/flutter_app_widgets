@@ -28,7 +28,7 @@ const appMenuItems = <MenuItem> [
 
   // APP Tutorial
   MenuItem(
-    title: 'APP Turorial', 
+    title: 'APP Tutorial', 
     subtitle: 'Tutorial de la apliación', 
     route: '/tutorial', 
     icon: Icons.info_outline

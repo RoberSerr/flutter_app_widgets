@@ -39,7 +39,7 @@ final appRouter = GoRouter(
 
     // APP Tutorial
     GoRoute(
-      path: '/app-tutorial',
+      path: '/tutorial',
       name: AppTutorialScreen.name,
       builder: (context, state) => const AppTutorialScreen(),
     ),
