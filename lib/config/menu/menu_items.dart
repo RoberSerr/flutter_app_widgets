@@ -68,8 +68,8 @@ const appMenuItems = <MenuItem> [
 
   // Snackbar
   MenuItem(
-    title: 'Snackbar', 
-    subtitle: 'Barra de información inferior', 
+    title: 'Snackbars y diálogos', 
+    subtitle: 'Indicadores en pantalla', 
     route: '/snackbar', 
     icon: Icons.install_mobile_outlined
   ),
