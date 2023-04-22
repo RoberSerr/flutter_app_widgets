@@ -5,6 +5,11 @@ class CardsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Tarjetas en Flutter'),
+      ),
+      body: const Placeholder(),
+    );
   }
 }

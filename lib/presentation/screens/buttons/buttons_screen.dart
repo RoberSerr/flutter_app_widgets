@@ -5,6 +5,11 @@ class ButtonsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Botones en Flutter'),
+      ),
+      body: const Placeholder(),
+    );
   }
 }
