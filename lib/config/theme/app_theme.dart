@@ -33,7 +33,7 @@ class AppTheme {
     // AppBar
     appBarTheme: const AppBarTheme(
       centerTitle: true
-    )
+    ),
 
   );
 
