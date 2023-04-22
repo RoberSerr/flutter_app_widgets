@@ -18,6 +18,22 @@ class MenuItem {
 
 const appMenuItems = <MenuItem> [
 
+  // Animated
+  MenuItem(
+    title: 'Animated', 
+    subtitle: 'Animaciones en Flutter', 
+    route: '/animated', 
+    icon: Icons.play_circle_outline_outlined
+  ),
+
+  // APP Tutorial
+  MenuItem(
+    title: 'APP Turorial', 
+    subtitle: 'Tutorial de la apliación', 
+    route: '/tutorial', 
+    icon: Icons.info_outline
+  ),
+
   // Buttons
   MenuItem(
     title: 'Buttons', 
@@ -32,6 +48,38 @@ const appMenuItems = <MenuItem> [
     subtitle: 'Contenedores en Flutter', 
     route: '/cards', 
     icon: Icons.credit_card_rounded
+  ),
+
+  // Infinite scroll
+  MenuItem(
+    title: 'Infinite Scroll', 
+    subtitle: 'Scroll sin fin', 
+    route: '/infinite-scroll', 
+    icon: Icons.move_down_outlined
+  ),
+
+  // Progress
+  MenuItem(
+    title: 'Progress controls', 
+    subtitle: 'Barras y controles de progreso', 
+    route: '/progress', 
+    icon: Icons.rocket_launch_sharp
+  ),
+
+  // Snackbar
+  MenuItem(
+    title: 'Snackbar', 
+    subtitle: 'Barra de información inferior', 
+    route: '/snackbar', 
+    icon: Icons.install_mobile_outlined
+  ),
+
+  // UI Controls
+  MenuItem(
+    title: 'UI Controls', 
+    subtitle: 'Controles de la interfaz de usuario', 
+    route: '/ui-controls', 
+    icon: Icons.ads_click
   ),
 
 ];
