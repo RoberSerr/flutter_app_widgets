@@ -15,7 +15,7 @@ class CounterScreen extends ConsumerWidget {
 
     final int clickCounter = ref.watch(counterProvider);
 
-    final bool isDarkMode = ref.watch(isDarkModeProvider);
+    final bool isDarkMode = ref.watch(themeNofifierProvider).isDarkmode;
 
     final colors = Theme.of(context).colorScheme;
 
@@ -24,8 +24,8 @@ class CounterScreen extends ConsumerWidget {
         title: const Text('Contador para Riverpod'),
         actions: [
           IconButton(
-            onPressed: () => ref.read( isDarkModeProvider.notifier )
-                                  .update((isDarkmode) => !isDarkmode), 
+            onPressed: () => ref.read( themeNofifierProvider.notifier )
+                                  .toggleDarkmode(), 
             icon: isDarkMode  ? const Icon(Icons.dark_mode_outlined)
                               : const Icon(Icons.light_mode_outlined),
           )
