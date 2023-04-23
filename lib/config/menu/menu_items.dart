@@ -82,6 +82,14 @@ const appMenuItems = <MenuItem> [
     icon: Icons.install_mobile_outlined
   ),
 
+  // Theme Changer
+  MenuItem(
+    title: 'Tema dinámico', 
+    subtitle: 'Modificaciones en el tema de la aplicación de forma dinámica', 
+    route: '/theme-changer', 
+    icon: Icons.color_lens_outlined
+  ),
+
   // UI Controls
   MenuItem(
     title: 'UI Controls', 

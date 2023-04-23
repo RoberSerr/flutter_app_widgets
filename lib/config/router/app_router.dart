@@ -72,6 +72,13 @@ final appRouter = GoRouter(
       builder: (context, state) => const SnackbarScreen(),
     ),
 
+    // Theme Changer
+    GoRoute(
+      path: '/theme-changer',
+      name: ThemeChangerScreen.name,
+      builder: (context, state) => const ThemeChangerScreen(),
+    ),
+
     // Ui Controls
     GoRoute(
       path: '/ui-controls',
