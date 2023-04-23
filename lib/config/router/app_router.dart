@@ -30,6 +30,13 @@ final appRouter = GoRouter(
       builder: (context, state) => const CardsScreen(),
     ),
 
+    // Counter
+    GoRoute(
+      path: '/counter',
+      name: CounterScreen.name,
+      builder: (context, state) => const CounterScreen(),
+    ),
+
     // Animated
     GoRoute(
       path: '/animated',

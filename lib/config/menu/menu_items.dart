@@ -50,6 +50,14 @@ const appMenuItems = <MenuItem> [
     icon: Icons.credit_card_rounded
   ),
 
+  // Counter
+  MenuItem(
+    title: 'Counter', 
+    subtitle: 'Contador para Riverpod', 
+    route: '/counter', 
+    icon: Icons.playlist_add_check_circle_rounded
+  ),
+
   // Infinite scroll
   MenuItem(
     title: 'InfiniteScroll y Pull', 
